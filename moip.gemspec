@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.rdoc_options = ["--charset=UTF-8"]
   gem.extra_rdoc_files = [ "LICENSE", "README.markdown"]
 
-  gem.add_development_dependency(%q<rspec>, ["~> 2.1.0"])
+  gem.add_development_dependency(%q<rspec>, ["~> 2.11.0"])
 
   gem.add_runtime_dependency(%q<nokogiri>, ["~> 1.4.3"])
   gem.add_runtime_dependency(%q<httparty>, ["~> 0.6.1"])
